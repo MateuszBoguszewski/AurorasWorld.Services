@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AurorasWorld.Common\AurorasWorld.Common.csproj" />
+    <ProjectReference Include="..\AurorasWorld.Photo.Service.Domain\AurorasWorld.Photo.Service.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

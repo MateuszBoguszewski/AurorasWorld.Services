@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AurorasWorld.Photo.Service", "AurorasWorld.Photo.Service\AurorasWorld.Photo.Service.csproj", "{BF9D69CF-AEB4-4A31-8F0C-4F015F68D6A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DAA5C082-5C9A-4CAC-A98A-777DD027C280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainServices", "MainServices", "{14BC6AF1-D195-47BB-8167-CA62D216B920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AurorasWorld.Photo.Service.Application", "AurorasWorld.Photo.Service.Application\AurorasWorld.Photo.Service.Application.csproj", "{0527F99A-EB38-4D27-9F81-5F227CC9EA5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AurorasWorld.Photo.Service.Domain", "AurorasWorld.Photo.Service.Domain\AurorasWorld.Photo.Service.Domain.csproj", "{C8B55B5E-79E0-462A-BDB4-290F70C0B445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AurorasWorld.Photo.Service.Infrastructure", "AurorasWorld.Photo.Service.Infrastructure\AurorasWorld.Photo.Service.Infrastructure.csproj", "{70E4BE69-34F5-4554-9389-603A88AB746C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AurorasWorld.Common", "AurorasWorld.Common\AurorasWorld.Common.csproj", "{B355A8C6-397A-46A0-845D-E16C854C0EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF9D69CF-AEB4-4A31-8F0C-4F015F68D6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9D69CF-AEB4-4A31-8F0C-4F015F68D6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9D69CF-AEB4-4A31-8F0C-4F015F68D6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9D69CF-AEB4-4A31-8F0C-4F015F68D6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0527F99A-EB38-4D27-9F81-5F227CC9EA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0527F99A-EB38-4D27-9F81-5F227CC9EA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0527F99A-EB38-4D27-9F81-5F227CC9EA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0527F99A-EB38-4D27-9F81-5F227CC9EA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B55B5E-79E0-462A-BDB4-290F70C0B445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B55B5E-79E0-462A-BDB4-290F70C0B445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B55B5E-79E0-462A-BDB4-290F70C0B445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B55B5E-79E0-462A-BDB4-290F70C0B445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E4BE69-34F5-4554-9389-603A88AB746C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E4BE69-34F5-4554-9389-603A88AB746C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E4BE69-34F5-4554-9389-603A88AB746C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E4BE69-34F5-4554-9389-603A88AB746C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B355A8C6-397A-46A0-845D-E16C854C0EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B355A8C6-397A-46A0-845D-E16C854C0EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B355A8C6-397A-46A0-845D-E16C854C0EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B355A8C6-397A-46A0-845D-E16C854C0EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF9D69CF-AEB4-4A31-8F0C-4F015F68D6A3} = {14BC6AF1-D195-47BB-8167-CA62D216B920}
+		{0527F99A-EB38-4D27-9F81-5F227CC9EA5C} = {14BC6AF1-D195-47BB-8167-CA62D216B920}
+		{C8B55B5E-79E0-462A-BDB4-290F70C0B445} = {14BC6AF1-D195-47BB-8167-CA62D216B920}
+		{70E4BE69-34F5-4554-9389-603A88AB746C} = {14BC6AF1-D195-47BB-8167-CA62D216B920}
+		{B355A8C6-397A-46A0-845D-E16C854C0EAA} = {DAA5C082-5C9A-4CAC-A98A-777DD027C280}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72904373-6E20-466C-A05B-C94A0A4AE983}
+	EndGlobalSection
+EndGlobal
