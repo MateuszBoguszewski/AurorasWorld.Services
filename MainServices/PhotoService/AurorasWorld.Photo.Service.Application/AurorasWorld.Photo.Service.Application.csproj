@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AurorasWorld.Common\AurorasWorld.Common.csproj" />
+    <ProjectReference Include="..\..\..\Common\AurorasWorld.Common\AurorasWorld.Common.csproj" />
     <ProjectReference Include="..\AurorasWorld.Photo.Service.Domain\AurorasWorld.Photo.Service.Domain.csproj" />
   </ItemGroup>
 
